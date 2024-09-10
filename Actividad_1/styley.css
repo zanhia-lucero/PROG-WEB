@@ -1,0 +1,36 @@
+h1{
+    color: #15c82e;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+     }
+
+.ingredientes{
+    color: #ff33c7;
+}
+.ingrediente{
+    background-color: #f4c4f3;
+}
+.procedimientos{
+    color: #ff33c7;
+}
+
+.procedimiento{
+    background-color: #f4c4f3;
+}
+
+
+/*.martes-ingredientes{
+    color: #ff33c7;
+}
+.martes-ing{
+    background-color:#f4c4f3;
+}
+.martes-procedimiento{
+    color: #ff33c7;
+}
+.martes-pro{
+    background-color: #f4c4f3;
+;
+}*/
