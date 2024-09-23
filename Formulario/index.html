@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recetas</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+    
+        
+            <h2>Formularios registro</h2>
+
+            <form action="/submit" method="post">
+                <label>Nombre Completo </label>
+                <input  type="nombre"  id="nombre" name="nombre" placeholder="Nombre completo" >
+
+                <label>Correo </label>
+                <input required type="email" id="email"  name="email" placeholder="correo@gmail.com" >
+
+                <label>Numero de telefono </label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+ 00 12 345 678" pattern="[+]{1}[0-9]{1,3} [0-9]{9,12}" required>
+
+                <label>Descripcion</label>
+                <textarea class="descripcion" required name="Descripcion" rols="10" cols="50" placeholder="Descripcion de tu area de profesion"></textarea>
+
+                <label>Genero</label>
+                <select name="Genero">
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                    <option>No especificar</option>
+                </select>
+
+                <label>Profesion</label>
+                <input id="lenguaje" type="text"  list="lenguaje">
+
+                <datalist id="lenguaje"  type="texte">
+                </datalist>
+
+
+                <button type="submit" class="button">Enviar</button>
+                
+            </form>
+    
+       </div>  
+
+    </body>
+</html> 
