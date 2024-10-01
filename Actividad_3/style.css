@@ -1,19 +1,28 @@
 h1{
-    color: #15c82e;
+    color: #f3f7f3;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
-     }
+}
+.menu {
+    color: #15c82e;  
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 
 .img_p{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .sub_principal{
     text-align: center;
+    font-size: 20px;
 }
 .h2_sub{
     text-align: center;
+    font-size: 20px;
 }
 
 .ingredientes{
@@ -28,15 +37,6 @@ h1{
 
 .procedimiento{
     background-color: #f4c4f3;
-}
-
-h1 {
-    color: #2e8b57; 
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 
@@ -89,9 +89,10 @@ a:hover {
 
 img {
     border-radius: 8px;
-    margin: 15px 0;
+    margin: 10px 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 
 div {
@@ -119,7 +120,7 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     margin: 0;
     
