@@ -1,3 +1,9 @@
+@media (max-width: 480px) {
+    .card {
+        max-width: 100%; 
+    }
+}
+
 .card{
     max-width: 300px;
     border: 1px solid #ddd;
@@ -17,11 +23,21 @@
     flex-wrap: wrap;
     padding: 50px; 
 }
+@media (max-width: 480px) {
+    .card-container {
+        max-width: 100%; 
+    }
+}
 
 .card-img {
     width: 100%;
     height: 40%;
     display: block;
+}
+@media (max-width: 480px) {
+    .card-img {
+        max-width: 100%; 
+    }
 }
 
 .card-content {
@@ -29,10 +45,17 @@
     text-align: center;
 }
 
+
 .card-title {
     font-size: 25px;
     margin: 0;
     color: #333;
+}
+
+@media (max-width: 480px) {
+    .card-title {
+        max-width: 100%; 
+    }
 }
 
 .card-description {
@@ -41,6 +64,11 @@
     margin: 10px 0;
 }
 
+@media (max-width: 480px) {
+    .card-description {
+        max-width: 100%; 
+    }
+}
 
 .card-button {
     display: inline-block;
@@ -51,15 +79,22 @@
     border-radius: 4px;
     text-decoration: none;
     
-    
 }
 
+@media (max-width: 480px) {
+    .card-button {
+        max-width: 100%; 
+    }
+}
 .card-button:hover {
     background-color: #0056b3;
 }
 
-
-
+@media (max-width: 480px) {
+    header {
+        padding: 10px 20px;
+    }
+}
 
 header {
     background-color: #15c82e;
@@ -87,7 +122,7 @@ nav {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 57px) {
     h1 {
         font-size: 2rem; 
     }
@@ -173,6 +208,16 @@ nav {
     margin-bottom: 5px;
 }
 
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px; 
+    }
+
+    .footer p {
+        font-size: 0.8rem; 
+    }
+}
+
 
 .search-bar {
     display: flex;
@@ -185,12 +230,12 @@ nav {
     border: none;
     border-radius: 20px;
     outline: none;
-    width: 250px; /* Puedes ajustar el ancho */
-    transition: width 0.4s ease; /* Efecto de transición para expandirse */
+    width: 250px; 
+    transition: width 0.4s ease; 
 }
 
 .search-bar input[type="text"]:focus {
-    width: 300px; /* Expande al hacer focus */
+    width: 300px;
 }
 
 .search-bar button {
@@ -210,7 +255,7 @@ nav {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     h1 {
         font-size: 2rem;
     }
