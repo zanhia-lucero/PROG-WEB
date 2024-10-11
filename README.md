@@ -10,7 +10,7 @@
 
 
 
-1. [html_basico](html_basico/index.html)
-2. [css_basico](css_basico/index.html)
-3. [Formulario](Formulario/index.html)
-4. [Sitio](Sitio/index.html)
+[html_basico](html_basico/index.html)
+[css_basico](css_basico/index.html)
+[Formulario](Formulario/index.html)
+[Sitio](Sitio/index.html)
