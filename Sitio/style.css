@@ -1,0 +1,293 @@
+@media (max-width: 480px) {
+    .card {
+        max-width: 100%; 
+    }
+}
+
+.card{
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 50px; 
+}
+@media (max-width: 480px) {
+    .card-container {
+        max-width: 100%; 
+    }
+}
+
+.card-img {
+    width: 100%;
+    height: 40%;
+    display: block;
+}
+@media (max-width: 480px) {
+    .card-img {
+        max-width: 100%; 
+    }
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.card-title {
+    font-size: 25px;
+    margin: 0;
+    color: #333;
+}
+
+@media (max-width: 480px) {
+    .card-title {
+        max-width: 100%; 
+    }
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+@media (max-width: 480px) {
+    .card-description {
+        max-width: 100%; 
+    }
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+@media (max-width: 480px) {
+    .card-button {
+        max-width: 100%; 
+    }
+}
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 20px;
+    }
+}
+
+header {
+    background-color: #15c82e;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 15px 30px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 2.2rem; 
+    text-align: center; 
+    color: white;
+    margin: 0; 
+}
+
+
+nav {
+    font-size: 1rem; 
+}
+
+
+@media (max-width: 57px) {
+    h1 {
+        font-size: 2rem; 
+    }
+
+    header {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+.nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.nav_menu ul li {
+    position: relative;
+}
+
+.nav_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav_menu a:hover {
+    background-color: #0fa524;
+}
+
+.nav_menu ul li ul.menu {
+    display: none;  
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #15c82e;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav_menu ul li ul.menu li {
+    width: 150px;
+}
+
+.nav_menu ul li ul.menu li a {
+    padding: 10px;
+    background-color: #15c82e;
+    white-space: nowrap;
+}
+
+
+.nav_menu ul li:hover ul.menu {
+    display: block;
+}
+
+.nav_menu ul li ul.menu li a:hover {
+    background-color: #0fa524;
+}
+
+.grid_conteiner{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #15c82e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px; 
+    }
+
+    .footer p {
+        font-size: 0.8rem; 
+    }
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 250px; 
+    transition: width 0.4s ease; 
+}
+
+.search-bar input[type="text"]:focus {
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: #15c82e;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #f0f0f0;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-bar input[type="text"] {
+        width: 200px;
+    }
+
+    .search-bar input[type="text"]:focus {
+        width: 250px;
+    }
+}
+
+.carousel-inner img {
+    width: 80%; 
+    height: auto; 
+    margin: 1%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.5s ease; 
+    
+}
+
+#carouselExample {
+    max-width: 700px;
+    margin: 0 auto; 
+    position: relative;
+    border-radius: 10px;
+   
+}
