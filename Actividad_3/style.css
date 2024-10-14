@@ -153,5 +153,26 @@ section {
     font-size: 18px;
 }
 
-/*********Inline*************/
-/*el espacio que abarca el contenido*/
+
+.footer {
+    grid-area: footer;
+    background-color: #15c82e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px; 
+    }
+
+    .footer p {
+        font-size: 0.8rem; 
+    }
+}
