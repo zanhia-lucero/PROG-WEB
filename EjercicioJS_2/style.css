@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    
     transition: background-color 0.2s; 
 }
 
@@ -25,15 +24,15 @@ body {
     transition: background-color 0.2s;
 }
 
-#btnRojo {
+#botonRojo {
     background-color: #cd1212;
 }
 
-#btnAzul {
+#botonAzul {
     background-color: #0124c3;
 }
 
-#btnVerde {
+#botonVerde {
     background-color: #06d83a;
 }
 
