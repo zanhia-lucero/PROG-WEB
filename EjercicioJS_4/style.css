@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d5ebf2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,20 +9,24 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #aedfed;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 12px;
 }
 
 h1 {
     text-align: center;
+    font-size: 30px;
+    color: #2c38a5;
 }
 
-.task-input {
+.agregarTarea {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 input {
@@ -30,6 +34,7 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin: 2px;
 }
 
 button {
@@ -39,6 +44,7 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 4px;
+    margin: 2px;
 }
 
 button:hover {
@@ -46,7 +52,7 @@ button:hover {
 }
 
 .delete {
-    background-color: red; 
+    background-color: rgb(241, 62, 169); 
     color: white; 
     border: none; 
     padding: 5px 10px; 
@@ -55,7 +61,7 @@ button:hover {
 }
 
 .delete:hover {
-    background-color: darkred; 
+    background-color: rgb(148, 5, 96); 
 }
 
 
@@ -74,4 +80,6 @@ li {
 .completed {
     text-decoration: line-through;
     color: gray;
+    font-size: 10px;
+    margin: 2px;
 }

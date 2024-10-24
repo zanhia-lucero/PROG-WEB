@@ -1,7 +1,6 @@
-
-const newTarea = document.getElementById('newTaskInput'); 
-const botonAgregarTarea = document.getElementById('addTaskBtn'); 
-const listaTareas = document.getElementById('taskList'); 
+const newTarea = document.getElementById('newTarea'); 
+const botonAgregarTarea = document.getElementById('agregarTarea'); 
+const listaTarea = document.getElementById('listaTarea'); 
 
 
 document.addEventListener('DOMContentLoaded', cargarTareasGuardadas);
@@ -49,7 +48,7 @@ function mostrarTareaEnLista(textoTarea, estaCompletada) {
     elementoLista.appendChild(checkboxCompletada);
     elementoLista.appendChild(textoTareaElemento);
     elementoLista.appendChild(botonEliminarTarea);
-    listaTareas.appendChild(elementoLista);
+    listaTarea.appendChild(elementoLista);
 }
 
 
