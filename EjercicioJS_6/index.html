@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Raza de Gatos</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con The Cat API</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <h1>Galería de Razas de Gatos</h1>
+    <div id="catGrid"></div>
+
     <div class="container">
-        
         <div class="card"> 
             <div class="description">
-
             <h1 class="title">Fold escocés</h1>
             <img class="img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTV_434_yNRDenvmchxKziVuiKIi1EjDueQ-Lgsee4IGwpbukr2" alt="Fold escocés">
            
@@ -19,9 +23,11 @@
             <p><b>Orejas: </b> 	Dobladas (de ahí la palabra fold, doblar en inglés)</p>
             <p><b>Patas: </b> 	Cortas</p>
             <p><b>Carácter: </b> Es un gato amistoso, dulce, tranquilo, relajado, mimoso y cariñoso, muy buen compañero de la familia.</p>
+                
+            <button id="prevPage" disabled>Anterior</button>
+            <button id="nextPage">Siguiente</button>
         </div>
     </div>
 
-        <script src="html.JS"></script>
+    <script type="module" src="js/main-page.js"></script>
 </body>
-</html>
