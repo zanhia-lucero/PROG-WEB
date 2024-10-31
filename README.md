@@ -16,6 +16,8 @@
 1. [Ejercicio_1](Calculadora_JS_1/index.html)
 2. [Ejercicio_2](EjercicioJS_2/index.html)
 3. [Ejercicio_4](EjercicioJS_4/index.html)
+4. [Ejercicio_5](EjercicioJS_5/index.html)
+   
    
    
     
